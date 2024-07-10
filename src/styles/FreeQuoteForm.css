@@ -1,0 +1,48 @@
+.free-quote-form {
+    padding: 40px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .free-quote-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .free-quote-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .free-quote-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .free-quote-form input,
+  .free-quote-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .free-quote-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .free-quote-form button:hover {
+    background: #0088cc;
+  }
+  

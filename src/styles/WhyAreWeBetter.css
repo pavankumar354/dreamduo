@@ -1,0 +1,76 @@
+.why-are-we-better {
+    padding: 60px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #f6f9fc, #eef2f3);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+  
+  .why-are-we-better h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .why-are-we-better p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .benefits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .benefit-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  .benefit-card .icon {
+    font-size: 100px;
+    margin-bottom: 20px;
+    color: #ff6f61; /* Add a vibrant color to the icons */
+  }
+  
+  .benefit-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+    font-weight: 600;
+  }
+  
+  .benefit-card p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  @media (max-width: 1024px) {
+    .benefit-card {
+      width: 45%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .benefit-card {
+      width: 100%;
+    }
+  }
+  
